@@ -1,5 +1,9 @@
 # AI-Powered Predictive Bed Demand Forecasting for Albion Care Network
 
+🚀 **Live Dashboard:** https://your-streamlit-app.streamlit.app
+
+📂 **GitHub Repository:** https://github.com/susandangana/predictive-bed-demand-forecasting
+
 ## Overview
 
 Hospital bed demand forecasting is critical for ensuring efficient healthcare service delivery, patient safety, and optimal resource utilisation. Traditional bed management often relies on historical averages and reactive decision-making, making it difficult to anticipate capacity constraints caused by emergency admissions, elective surgeries, seasonal demand, and varying patient lengths of stay.
@@ -266,7 +270,7 @@ Navigate to the project directory:
 
 # Project Status
 
-🚧 **Work in Progress**
+🚧 **Completed**
 
 The project is currently progressing through the following stages:
 
