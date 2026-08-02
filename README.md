@@ -48,9 +48,13 @@ This project develops an AI-powered predictive analytics solution for **Albion C
 
 ![Dashboard](images/dashboard_home.png)
 
-### Forecasting Dashboard
+### Forecasting Error Distribution
 
-![Forecast](images/forecast_dashboard.png)
+![Forecast](images/forecast_error_distribution.png)
+
+### Time Horizon Forcast
+
+![Forecast](images/forcast_over_time.png)
 
 ---
 
