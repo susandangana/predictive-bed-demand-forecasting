@@ -1,0 +1,56 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Model checkpoints (optional)
+*.h5
+*.keras
+
+# Python environment files
+.env
+
+# Large intermediate datasets
+
+data/processed_data/bed_demand_data.csv
+
+data/processed_data/preprocessed_data.csv
+
+
+
+# Large intermediate serialized datasets
+
+data/processed_data/bed_demand_data.pkl
+
+data/processed_data/preprocessed_data.pkl
+
+
+
+# Large Random Forest model
+
+models/optimised_random_forest_bed_demand.pkl
+
+
+
+# Other unnecessary dataset
+
+Albion Bed-Demand-and-Capacity-Analysis_Team 5.pptx
+
+Prophet_Hourly_Forecast.csv                 
+
+Prophet_All_Forecasts.csv  
