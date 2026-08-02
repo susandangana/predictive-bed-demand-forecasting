@@ -31,7 +31,7 @@
 
 
 # =============================================================================
-# STREAMLIT
+# STREAMLIT AND PATH
 # =============================================================================
 #
 # Streamlit is used to create an interactive web application.
@@ -47,6 +47,14 @@
 # =============================================================================
 
 import streamlit as st
+
+from pathlib import Path
+
+# =============================================================================
+# PROJECT ROOT
+# =============================================================================
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # =============================================================================
@@ -369,11 +377,9 @@ print(f"Date Updated: {updated_date}")
 
 def load_data():
 
-    df = pd.read_csv(
+    DATA_PATH = BASE_DIR / "data" / "processed_data" / "xgboost_forecast_dashboard_data.csv"
 
-        "../data/processed_data/xgboost_forecast_dashboard_data.csv"
-
-    )
+    df = pd.read_csv(DATA_PATH)
 
 
     # Convert datetime column into datetime format
@@ -1315,10 +1321,9 @@ else:
 # LOAD XGBOOST MODEL PERFORMANCE METRICS
 # =============================================================================
 
-performance_df = pd.read_csv(
-    "../data/processed_data/xgboost_model_performance.csv"
-)
+DATA_PATH = BASE_DIR / "data" / "processed_data" / "xgboost_model_performance.csv"
 
+performance_df = pd.read_csv(DATA_PATH)
 
 def get_metric(metric_name):
 
@@ -1641,9 +1646,9 @@ with col2:
     st.subheader("⭐ Top 20 Most Important Features")
 
     # Load feature importance generated during model training
-    feature_importance = pd.read_csv(
-        "../data/processed_data/xgboost_feature_importance.csv"
-    )
+    DATA_PATH = BASE_DIR / "data" / "processed_data" / "xgboost_feature_importance.csv"
+
+    feature_importance = pd.read_csv(DATA_PATH)
 
     # Select the twenty most important variables
     feature_importance = (
