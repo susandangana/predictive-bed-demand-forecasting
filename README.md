@@ -8,6 +8,48 @@ This project develops an AI-powered predictive analytics solution for **Albion C
 
 ---
 
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- LightGBM
+- CatBoost
+- Prophet
+- TensorFlow / Keras (LSTM)
+- Matplotlib
+- Seaborn
+- Streamlit
+- Git & GitHub
+
+---
+
+## Key Features
+
+
+- End-to-end data preprocessing and integration.
+- Feature engineering for time-series forecasting.
+- Comparison of multiple forecasting models.
+- Interactive Streamlit dashboard.
+- Scenario analysis for operational planning.
+- Model performance evaluation.
+
+---
+
+## App Dashboard Preview
+
+### Home Page
+
+![Dashboard](images/dashboard_home.png)
+
+### Forecasting Dashboard
+
+![Forecast](images/forecast_dashboard.png)
+
+---
+
 # Business Problem
 
 Albion Care Network faces several operational challenges, including:
@@ -126,6 +168,7 @@ Model performance will be evaluated using:
 - MAE
 - RMSE
 - MAPE
+- R^2
 
 ## 4. Scenario Simulation
 
@@ -196,6 +239,30 @@ Predictive Bed Demand/
 ```
 
 ---
+
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/susandangana/predictive-bed-demand-forcasting.git
+
+```
+Navigate to the project directory:
+
+```bash
+cd Predeictive Bed Demand
+
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements_dev.txt
+
+```
+
+Navigate to the project directory:
 
 # Project Status
 
