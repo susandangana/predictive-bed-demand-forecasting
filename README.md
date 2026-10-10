@@ -4,6 +4,24 @@
 
 📂 **GitHub Repository:** https://github.com/susandangana/predictive-bed-demand-forecasting
 
+---
+
+## App Dashboard Preview
+
+### Home Page
+
+![Dashboard](images/dashboard_home.png)
+
+### Forecasting Error Distribution
+
+![Forecast](images/forecast_error_distribution.png)
+
+### Time Horizon Forcast
+
+![Forecast](images/forcast_over_time.png)
+
+---
+
 ## Overview
 
 Hospital bed demand forecasting is critical for ensuring efficient healthcare service delivery, patient safety, and optimal resource utilisation. Traditional bed management often relies on historical averages and reactive decision-making, making it difficult to anticipate capacity constraints caused by emergency admissions, elective surgeries, seasonal demand, and varying patient lengths of stay.
@@ -39,22 +57,6 @@ This project develops an AI-powered predictive analytics solution for **Albion C
 - Interactive Streamlit dashboard.
 - Scenario analysis for operational planning.
 - Model performance evaluation.
-
----
-
-## App Dashboard Preview
-
-### Home Page
-
-![Dashboard](images/dashboard_home.png)
-
-### Forecasting Error Distribution
-
-![Forecast](images/forecast_error_distribution.png)
-
-### Time Horizon Forcast
-
-![Forecast](images/forcast_over_time.png)
 
 ---
 
